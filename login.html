@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/456180ef81.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/login.css" >
-    <title>LogIn</title>
+    <title>Log In</title>
 </head>
 
 <body>
@@ -19,13 +19,16 @@
             <div class="row">
                 <div class="card">
                     <div class="input_content">
-                        <label for="username"> Email Address <span style="color: red;">*</span> <br>
+                        <p class="message">Email et Mot de Passe requis</p>
+                    </div>
+                    <div class="input_content">
+                        <label for="username"> <span class="label">  Email Address </span> <span style="color: red;">*</span> <br>
                             <input type="email" name="username"  placeholder="Enter email address" required>
                         </label>
                     </div>
                     <div class="input_content">
-                        <label for="Password"> Password <span style="color: red;">*</span><br>
-                            <input type="password" name="password" placeholder="Enter password *" required>
+                        <label for="Password"> <span class="label">  Password </span> <span style="color: red;">*</span><br>
+                            <input type="password" name="password" placeholder="Enter password " required>
                             <span class="eye"><i class="fa-solid fa-eye"></i></span>
                             <span class="eye"><i class="fa-solid fa-eye-slash"></i></span>
                         </label>
